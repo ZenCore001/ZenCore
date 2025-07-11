@@ -1,0 +1,56 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Configuración y entorno
+.env
+.env.*
+
+# Archivos de log
+*.log
+
+# Archivos temporales / del sistema
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# === FASTAPI / BACKEND ===
+/alembic
+/migrations
+*.sqlite3
+*.db
+instance/
+*.bak
+
+# === QT / PySide6 ===
+*.ui.py
+*.qrc.py
+*.pyc
+build/
+dist/
+
+# === PyInstaller / Build ===
+*.spec
+
+# === ARCHIVOS LOCALES ===
+.idea/
+.vscode/
+*.iml
+
+# === ARCHIVOS PERSONALIZADOS DE ZENCORE ===
+/Database/
+*/Database/
+Settings/
+*/Settings/
+__zencore_temp__/
+.zencore_cache/
