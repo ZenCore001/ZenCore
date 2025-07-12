@@ -1,0 +1,1 @@
+# Estilo para bordes redondeados, sin marco, etc.
